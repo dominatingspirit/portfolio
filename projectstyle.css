@@ -1,0 +1,151 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Main background */
+body {
+    background: linear-gradient(120deg, #d2e9ff, #eaf4ff);
+    color: #111;
+    transition: 0.4s ease-in-out;
+}
+
+/* Container for perfect centering */
+.container {
+    width: 92%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 25px;
+}
+
+
+/* Sections Spacing */
+.section {
+    padding: 40px 0;
+}
+
+/* DARK MODE */
+body.dark {
+    background: #050a1a;
+    color: #f5f7ff;
+}
+
+
+
+/* NAVBAR */
+header {
+    background: transparent;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    z-index: 2000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 22px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0077ff;
+}
+
+body.dark nav ul li a:hover {
+    color: #42aaff;
+}
+
+/* HOME SECTION */
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-content {
+    max-width: 550px;
+}
+
+.home-content h1 span {
+    color: #0077ff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #0077ff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0055d4;
+}
+
+/* HOME IMAGE */
+.home-img img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* GLASS EFFECT */
+.glass {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* SKILLS */
+.skill-box span {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(120deg, #0077ff, #00d4ff);
+    color: white;
+    border-radius: 25px;
+    margin: 8px;
+    transition: .3s;
+}
+
+.skill-box span:hover {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0077ff;
+    color: white;
+    margin-top: 40px;
+}
+
+
