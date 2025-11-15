@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Krishna Anand | Portfolio</title>
+
+    <link rel="stylesheet" href="projectstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- DARK MODE TOGGLE -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="dark-toggle">
+        <label for="dark-toggle"></label>
+    </div>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="container nav-container">
+            <h2 class="logo">Krishna Anand</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="home container">
+        <div class="home-content">
+            <h1>Hello, I'm <span>Krishna Anand</span></h1>
+            <p>B.Tech (CSE) Student at DTU | Web Developer | Tech Enthusiast</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+
+        <div class="home-img">
+            <img src="profilepic.jpeg" alt="Krishna Anand">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container glass">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a passionate Web Developer specialised in HTML and CSS, building responsive and user-friendly web pages. 
+            I love learning new things related to tech and finance. I enjoy working on innovative projects and building things on my own.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+        <h2>Skills</h2>
+        <div class="skill-box">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>C</span>
+            <span>C++</span>
+            <span>Python</span>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+        <h2>Projects</h2>
+
+        <div class="project-item glass">
+            <h3>Healify.AI (Startup Idea)</h3>
+            <p>An AI-powered health and wellness assistant currently in ideation stage.</p>
+        </div>
+
+        <div class="project-item glass">
+            <h3>Crowd Management System (SIH)</h3>
+            <p>Developed solution for Smart India Hackathon using digital automation.</p>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section container">
+        <h2>Education</h2>
+
+        <div class="edu-card glass">
+            <h3>B.Tech (CSE)</h3>
+            <p>Delhi Technological University (2025–2029)</p>
+        </div>
+
+        <div class="edu-card glass">
+            <h3>High School (PCM) – 92%</h3>
+            <p>Sant Gyaneshwar Model School (CBSE) 2023–2025</p>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section container">
+        <h2>Achievements</h2>
+        <ul class="glass">
+            <li>JEE Mains AIR: <strong>5135</strong> (99.67 percentile)</li>
+            <li>JEE Advanced AIR: <strong>11915</strong></li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container glass">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> krishna.anand0704@gmail.com</p>
+        <p><strong>Phone:</strong> 8368745620</p>
+        <p><strong>Address:</strong> Vasundhara, Ghaziabad</p>
+        <p><strong>Github:</strong> <a href="https://github.com/dominatingspirit">github.com/dominatingspirit</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/krishna-anand-0b915a37a/">Your LinkedIn</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Krishna Anand | Portfolio</p>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById("dark-toggle");
+        toggle.addEventListener("change", () => {
+            document.body.classList.toggle("dark");
+        });
+    </script>
+
+</body>
+</html>
+
